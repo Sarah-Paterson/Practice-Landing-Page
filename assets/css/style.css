@@ -1,0 +1,21 @@
+* {
+ background-color: blanchedalmond;
+}
+
+header {
+    color: black;
+}
+
+li {
+    display: inline;
+}
+
+/* Cat image styling*/
+img {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(177, 181, 84);
+    margin: 20px;
+    border: 10px solid rgb(100, 104, 46);
+    display: inline-block;
+}
