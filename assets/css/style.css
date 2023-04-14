@@ -1,21 +1,60 @@
 * {
- background-color: blanchedalmond;
-}
-
-header {
-    color: black;
-}
-
-li {
-    display: inline;
-}
-
-/* Cat image styling*/
-img {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(177, 181, 84);
-    margin: 20px;
-    border: 10px solid rgb(100, 104, 46);
-    display: inline-block;
-}
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   }
+   
+   header {
+       display: block;
+       width: auto;
+       padding: 5px;
+       border: 5px solid rgb(100, 104, 46);
+       text-align: right;
+       background-color: rgb(177, 181, 84);
+       
+   }
+   
+   li {
+       position: relative;
+       color: black;
+       display: inline;
+       font-size: 30px;
+       margin: 5px;
+   }
+   
+   h2 {
+       display: block;
+       text-align: center;
+       color: rgb(100, 104, 46);
+       background-color: rgb(177, 181, 84);
+       margin-left: auto;
+       margin-right: auto;
+       width: fit-content;
+       padding: 5px 15px;
+   }
+   
+   p {
+       display: block;
+       color: rgb(100, 104, 46);
+       text-align: center;
+       padding: 15px;
+       width: 800px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   /* Cat image styling*/
+   img {
+       height: 200px;
+       width: 200px;
+       background-color: rgb(177, 181, 84);
+       margin: 20px;
+       border: 10px solid rgb(100, 104, 46);
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   footer {
+       text-align: center;
+   }
