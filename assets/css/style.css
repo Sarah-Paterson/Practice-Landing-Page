@@ -1,18 +1,40 @@
-* {
- background-color: blanchedalmond;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* CSS Variables */
 
+/* Smooth Scroll effect */
+
+/* Style elements for everything - Resets */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body {
+ background-color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 104, 46);
+}
+
+/* link change color with hover */
+a:hover {
+    color: rgb(177, 181, 84);
+}
+
+/* Body */
 
 header {
+    position: sticky;
+    top: 0%;
     display: block;
-    width: auto;
     padding: 5px;
-    border: 5px solid rgb(100, 104, 46);
+    width: auto;
     text-align: right;
-    background-color: rgb(177, 181, 84);
+    background-color: white
     
 }
+
+/* ul and li */
 
 li {
     position: relative;
@@ -44,6 +66,7 @@ p {
 }
 
 /* Cat image styling*/
+
 img {
     height: 200px;
     width: 200px;
